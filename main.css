@@ -1,44 +1,61 @@
+html{
+    display:inline-flex;
+}
 body {
     min-height: 100%;
     height: 100%;
     width:100%;
-    position:relative;
+    display:inline-flex;
     background:linear-gradient(90deg, rgb(7, 7, 54) 50%, white 50%);
 }
 #header{
-    display:grid;
+    display:inline-flex;
+    flex-direction:column;
     margin:0;
     font-weight: bold;
-    padding-top:8%;
-    float:left;
+    padding-top:6%;
     width:50%;
+    height:50%;
 }
-.mypic{
-    width: 38%;
+#header img{
+    width: 42%;
     border-radius: 50%;
-    margin-left: 30%;
+    margin-left: 28%;
 }
 .name{
-    display:inline;
+    margin-top:4%;
     text-align: center;
 }
 .en_name {
+    display: inline;
     color:white;
     font-size:2em;
-    display:inline;
+    margin:0;
 }
 .kor_name{
+    display: inline;
     color:salmon;
     font-size:3em;
-    display:inline;
+    margin:0;
 }
-
+.instagram i{
+    color:lightcoral;
+}
+.instagram{
+    font-size:1.2em;
+    color:white;
+    margin-top:3%;
+}
+.instagram a{
+    text-decoration: none;
+    color:lightgray;
+}
 #introduce{
-    float:right;
-    display: grid;
+    display:inline-flex;
+    flex-direction:column;
     width:50%;
 }
-.title{
+.first_title{
     font-weight: bold;
     font-size: 2.5em;
     text-align: center;
@@ -46,16 +63,19 @@ body {
     margin-bottom:5%;
 }
 
+.first_title i{
+    color:lightcoral;
+}
 .content p{
     font-size:1.1em;
     font-weight: bold;
     text-align: center;
 }
-.content ul{
-    padding-left: 30%;
+#club ul{
+    padding-left: 34%; 
 }
-.content li{
-    font-size: 1em;
+#club li{
+    font-size: 1.1em;
 }
 .second_title{
     font-size: 1.2em;
@@ -63,15 +83,22 @@ body {
     text-align: center;
     padding-top:2%;
 }
-.hobby p{
+#hobby p{ 
+    margin-top:1%;
     text-align: center;
     font-size: 1em;
     font-weight: bold;
 }
-.hobby img{
+.img_group{
+    display: inline-flex;
     width: 20%;
-    height: 120px;
-    border-radius:25%;
-    margin-left:1%;
+    height: 40%;
+    padding-left:18%;
+    padding-top:1%;
 }
-
+#hobby img{ 
+    width: 100%;
+    height: 100%;
+    border-radius:25%;
+    margin-left:5%;
+}
