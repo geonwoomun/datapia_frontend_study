@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JS</title>
+    </head>
+    <body>
+        <script>
+        const arr=[
+            {name: '최정은', age: 23, grade: 4},
+            {name: '표석훈', age: 24, grade: 3},
+            {name: '문건우', age: 26, grade: 4},
+            {name: '손민호', age: 24, grade: 3},
+            {name: '황서영', age: 21, grade: 2}];
+        const index=arr.findIndex(n=>n.name==='문건우');
+        let end=arr.length;
+        const token1=arr.slice(0,index);
+        const token2=arr.slice(index+1,end);
+        const result=token1.concat(token2);
+        console.log(arr);
+        console.log(result);
+    </script>
+  </body>
+</html>
