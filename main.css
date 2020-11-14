@@ -1,0 +1,104 @@
+html{
+    display:inline-flex;
+}
+body {
+    min-height: 100%;
+    height: 100%;
+    width:100%;
+    display:inline-flex;
+    background:linear-gradient(90deg, rgb(7, 7, 54) 50%, white 50%);
+}
+#header{
+    display:inline-flex;
+    flex-direction:column;
+    margin:0;
+    font-weight: bold;
+    padding-top:6%;
+    width:50%;
+    height:50%;
+}
+#header img{
+    width: 42%;
+    border-radius: 50%;
+    margin-left: 28%;
+}
+.name{
+    margin-top:4%;
+    text-align: center;
+}
+.en_name {
+    display: inline;
+    color:white;
+    font-size:2em;
+    margin:0;
+}
+.kor_name{
+    display: inline;
+    color:salmon;
+    font-size:3em;
+    margin:0;
+}
+.instagram i{
+    color:lightcoral;
+}
+.instagram{
+    font-size:1.2em;
+    color:white;
+    margin-top:3%;
+}
+.instagram a{
+    text-decoration: none;
+    color:lightgray;
+}
+#introduce{
+    display:inline-flex;
+    flex-direction:column;
+    width:50%;
+}
+.first_title{
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top:5%;
+    margin-bottom:5%;
+}
+
+.first_title i{
+    color:lightcoral;
+}
+.content p{
+    font-size:1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+#club ul{
+    padding-left: 34%; 
+}
+#club li{
+    font-size: 1.1em;
+}
+.second_title{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top:2%;
+}
+#hobby p{ 
+    margin-top:1%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+.img_group{
+    display: inline-flex;
+    width: 20%;
+    height: 40%;
+    padding-left:18%;
+    padding-top:1%;
+}
+#hobby img{ 
+    width: 100%;
+    height: 100%;
+    border-radius:25%;
+    margin-left:5%;
+}

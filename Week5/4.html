@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JS</title>
+    </head>
+    <body>
+        <script>
+        const arr=[
+            { price: 3000, name: "카페라떼" },
+            { price: 3500, name: "바닐라라떼" },
+            { price: 1500, name: "아메리카노" },
+            { price: 3800, name: "돌체라떼" },
+            { price: 4200, name: "두유소이라떼" }];
+
+        function Print(arr){
+            const newarr=[];
+            for(let i=0;i<arr.length;i++){
+                newarr.push({price: arr[i].price-(i*100), name: arr[i].name});
+            }
+            return newarr;
+        }
+        console.log(Print(arr));
+    </script>
+  </body>
+</html>

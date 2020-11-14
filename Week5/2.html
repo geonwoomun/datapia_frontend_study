@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JS</title>
+    </head>
+    <body>
+        <script>
+        const arr=[
+            {grade: 4, name: '페이커'}, 
+            {grade:3, name:'너구리'},
+            {grade:3, name:'쇼메이커'},
+            {grade: 1, name: '칸나'}, 
+            {grade: 2, name: '캐니언'},
+            {grade: 1, name:'라이프'}];
+        const newarr={high:[],low:[]};
+        arr.forEach(n => {
+            if(n.grade>=3){
+                newarr.high.push(n);
+            }
+            else{
+                newarr.low.push(n);
+            }
+        });
+        console.log(newarr);
+    </script>
+  </body>
+</html>

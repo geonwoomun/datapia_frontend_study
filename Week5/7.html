@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JS</title>
+    </head>
+    <body>
+        <script>
+        const arr=[
+            {name: '최정은', age: 23, grade: 4},
+            {name: '표석훈', age: 24, grade: 3},
+            {name: '문건우', age: 26, grade: 4},
+            {name: '손민호', age: 24, grade: 3},
+            {name: '황서영', age: 21, grade: 2}];
+        const pick=arr.filter(n=> n.grade < 4);
+        const result=[];
+        pick.forEach(n=>{
+            delete n.name;
+            result.push(n);
+        })
+        console.log(result);
+    </script>
+  </body>
+</html>
