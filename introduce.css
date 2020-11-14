@@ -1,0 +1,25 @@
+div.all{ 
+    border: 7px solid greenyellow;
+    width: 50%;
+    margin: 0 auto;
+}
+body{
+    font: bold 25px sans-serif;
+    text-align: center;
+}
+p.explain{
+    font-size: 20px;
+}
+img.gyeyang_img{
+    border: 5px solid black;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+}
+img.drama_img{
+    position: relative;
+    top: -30px;
+}
+img.mamamoo_img{
+    position: static;
+}
